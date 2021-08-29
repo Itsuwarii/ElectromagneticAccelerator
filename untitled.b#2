@@ -70,7 +70,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -80,28 +79,6 @@
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="untitled">
-<packages>
-<package name="EE40/EI40">
-<wire x1="-15.73484375" y1="-13.92934375" x2="-15.73484375" y2="14.07065625" width="0.127" layer="21"/>
-<wire x1="15.868653125" y1="-13.928753125" x2="15.868653125" y2="14.071246875" width="0.127" layer="21"/>
-<wire x1="-15.73434375" y1="-13.9301375" x2="15.86565625" y2="-13.9301375" width="0.127" layer="21"/>
-<wire x1="-15.73353125" y1="14.07149375" x2="15.86646875" y2="14.07149375" width="0.127" layer="21"/>
-<pad name="P$1" x="-12.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$2" x="-7.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$3" x="-2.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$4" x="2.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$5" x="7.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$6" x="12.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$7" x="-12.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$8" x="-7.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$9" x="-2.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$10" x="2.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$11" x="7.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$12" x="12.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -295,7 +272,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="untitled" package="EE40/EI40" value="TRANSFORMER-EE40" x="16.51" y="-15.24" smashed="yes"/>
 </elements>
 <signals>
 </signals>
