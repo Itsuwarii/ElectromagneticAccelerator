@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="14" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="1.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -64,45 +64,124 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
-<package name="EE40">
-<wire x1="-14.003446875" y1="-13.99868125" x2="-14.003446875" y2="14.00131875" width="0.127" layer="21"/>
-<wire x1="17.60005" y1="-13.998090625" x2="17.60005" y2="14.001909375" width="0.127" layer="21"/>
-<wire x1="-14.002946875" y1="-13.999475" x2="17.597053125" y2="-13.999475" width="0.127" layer="21"/>
-<wire x1="-14.002134375" y1="14.00215625" x2="17.597865625" y2="14.00215625" width="0.127" layer="21"/>
-<wire x1="-13.998740625" y1="11.244659375" x2="-10.698740625" y2="11.244659375" width="0.127" layer="21"/>
-<wire x1="-14.00684375" y1="-11.25268125" x2="-10.70684375" y2="-11.25268125" width="0.127" layer="21"/>
-<wire x1="14.304540625" y1="-11.25314375" x2="17.604540625" y2="-11.25314375" width="0.127" layer="21"/>
-<wire x1="14.295453125" y1="11.255765625" x2="17.595453125" y2="11.255765625" width="0.127" layer="21"/>
-<wire x1="14.29888125" y1="-11.246821875" x2="14.29888125" y2="-13.996821875" width="0.127" layer="21"/>
-<wire x1="-10.71245625" y1="-11.2550875" x2="-10.71245625" y2="-14.0050875" width="0.127" layer="21"/>
-<wire x1="-10.7028375" y1="13.9943125" x2="-10.7028375" y2="11.2443125" width="0.127" layer="21"/>
-<wire x1="14.30720625" y1="14.006409375" x2="14.30720625" y2="11.256409375" width="0.127" layer="21"/>
-<pad name="P$1" x="-10.695853125" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$2" x="-5.695853125" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$3" x="-0.695853125" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$4" x="4.304146875" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$5" x="9.304146875" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$6" x="14.304146875" y="11.231940625" drill="0.9" diameter="2.1844"/>
-<pad name="P$7" x="-10.744225" y="-11.250496875" drill="0.9" diameter="2.1844"/>
-<pad name="P$8" x="-5.744225" y="-11.250496875" drill="0.9" diameter="2.1844"/>
-<pad name="P$9" x="-0.744225" y="-11.250496875" drill="0.9" diameter="2.1844"/>
-<pad name="P$10" x="4.255775" y="-11.250496875" drill="0.9" diameter="2.1844"/>
-<pad name="P$11" x="9.255775" y="-11.250496875" drill="0.9" diameter="2.1844"/>
-<pad name="P$12" x="14.255775" y="-11.250496875" drill="0.9" diameter="2.1844"/>
+<package name="EE40/EI40-UP">
+<wire x1="-15.73484375" y1="-13.92934375" x2="-15.73484375" y2="14.07065625" width="0.127" layer="21"/>
+<wire x1="15.868653125" y1="-13.928753125" x2="15.868653125" y2="14.071246875" width="0.127" layer="21"/>
+<wire x1="-15.73434375" y1="-13.9301375" x2="15.86565625" y2="-13.9301375" width="0.127" layer="21"/>
+<wire x1="-15.73353125" y1="14.07149375" x2="15.86646875" y2="14.07149375" width="0.127" layer="21"/>
+<pad name="P$1" x="-12.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$2" x="-7.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$3" x="-2.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$4" x="2.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$5" x="7.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$6" x="12.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
+<pad name="P$7" x="-12.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<pad name="P$8" x="-7.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<pad name="P$9" x="-2.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<pad name="P$10" x="2.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<pad name="P$11" x="7.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<pad name="P$12" x="12.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+</package>
+<package name="EE40/EI40-DOWN">
+<wire x1="4.98205625" y1="38.479709375" x2="4.98205625" y2="-0.020290625" width="0.127" layer="21"/>
+<wire x1="38.481209375" y1="38.48225" x2="38.481209375" y2="-0.01775" width="0.127" layer="21"/>
+<wire x1="4.97944375" y1="-0.01763125" x2="38.47944375" y2="-0.01763125" width="0.127" layer="21"/>
+<wire x1="4.98174375" y1="38.482828125" x2="38.48174375" y2="38.482828125" width="0.127" layer="21"/>
+<wire x1="4.98209375" y1="34.22150625" x2="8.83209375" y2="34.22150625" width="0.127" layer="21"/>
+<wire x1="4.986140625" y1="4.245984375" x2="8.836140625" y2="4.245984375" width="0.127" layer="21"/>
+<wire x1="34.630684375" y1="4.249025" x2="38.480684375" y2="4.249025" width="0.127" layer="21"/>
+<wire x1="34.630309375" y1="34.223753125" x2="38.480309375" y2="34.223753125" width="0.127" layer="21"/>
+<wire x1="8.83349375" y1="38.4653125" x2="8.83349375" y2="34.2153125" width="0.127" layer="21"/>
+<wire x1="8.83853125" y1="4.243190625" x2="8.83853125" y2="-0.006809375" width="0.127" layer="21"/>
+<wire x1="34.637575" y1="4.242028125" x2="34.637575" y2="-0.007971875" width="0.127" layer="21"/>
+<wire x1="34.629853125" y1="34.228228125" x2="34.629853125" y2="38.478228125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
+<symbol name="TRANSFORMER">
+<description>Coupled inductors</description>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.1524" layer="94" curve="180"/>
+<wire x1="-7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<circle x="-6.35" y="8.89" radius="0.359209375" width="0.1524" layer="94"/>
+<circle x="6.35" y="8.89" radius="0.359209375" width="0.1524" layer="94"/>
+<text x="-3.81" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="4.572" size="1.778" layer="94">N1</text>
+<text x="3.302" y="4.572" size="1.778" layer="94">N2</text>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-7.62" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="-5.08" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="94"/>
+<pin name="P$1" x="-12.7" y="10.16" visible="pad" length="middle"/>
+<pin name="P$2" x="-12.7" y="2.54" visible="pad" length="middle"/>
+<pin name="P$3" x="-12.7" y="-2.54" visible="pad" length="middle"/>
+<pin name="P$4" x="-12.7" y="-7.62" visible="pad" length="middle"/>
+<pin name="P$5" x="-12.7" y="-12.7" visible="pad" length="middle"/>
+<pin name="P$6" x="-12.7" y="-20.32" visible="pad" length="middle"/>
+<pin name="P$7" x="12.7" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="P$8" x="12.7" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$9" x="12.7" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$10" x="12.7" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$11" x="12.7" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="P$12" x="12.7" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="TRANSFORMER-EE40">
+<gates>
+<gate name="G$1" symbol="TRANSFORMER" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="EE40/EI40-UP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

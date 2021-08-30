@@ -76,85 +76,97 @@
 <libraries>
 <library name="untitled">
 <packages>
-<package name="EE40/EI40">
-<wire x1="-15.73484375" y1="-13.92934375" x2="-15.73484375" y2="14.07065625" width="0.127" layer="21"/>
-<wire x1="15.868653125" y1="-13.928753125" x2="15.868653125" y2="14.071246875" width="0.127" layer="21"/>
-<wire x1="-15.73434375" y1="-13.9301375" x2="15.86565625" y2="-13.9301375" width="0.127" layer="21"/>
-<wire x1="-15.73353125" y1="14.07149375" x2="15.86646875" y2="14.07149375" width="0.127" layer="21"/>
-<pad name="P$1" x="-12.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$2" x="-7.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$3" x="-2.42725" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$4" x="2.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$5" x="7.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$6" x="12.57275" y="11.301278125" drill="0.9" diameter="2.1844"/>
-<pad name="P$7" x="-12.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$8" x="-7.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$9" x="-2.475621875" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$10" x="2.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$11" x="7.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
-<pad name="P$12" x="12.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+<package name="EE40/EI40-DOWN">
+<wire x1="-16.961846875" y1="19.223553125" x2="-16.961846875" y2="-19.276446875" width="0.127" layer="21"/>
+<wire x1="16.53730625" y1="19.22609375" x2="16.53730625" y2="-19.27390625" width="0.127" layer="21"/>
+<wire x1="-16.964459375" y1="-19.2737875" x2="16.535540625" y2="-19.2737875" width="0.127" layer="21"/>
+<wire x1="-16.962159375" y1="19.226671875" x2="16.537840625" y2="19.226671875" width="0.127" layer="21"/>
+<pad name="P$1" x="-13.147515625" y="14.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$2" x="-13.147515625" y="9.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$3" x="-13.147515625" y="4.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$4" x="-13.147515625" y="-0.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$5" x="-13.147515625" y="-5.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$6" x="-13.147515625" y="-10.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$7" x="-13.147515625" y="-15.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$8" x="12.62581875" y="15.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$9" x="12.62581875" y="10.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$10" x="12.62581875" y="5.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$11" x="12.62581875" y="0.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$12" x="12.62581875" y="-4.953475" drill="0.85" diameter="2.54"/>
+<pad name="P$13" x="12.62581875" y="-9.953475" drill="0.85" diameter="2.54"/>
+<pad name="P$14" x="12.62581875" y="-14.953475" drill="0.85" diameter="2.54"/>
+<wire x1="-20.7425375" y1="22.776175" x2="20.2574625" y2="22.776175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-20.68888125" y1="-23.242721875" x2="20.31111875" y2="-23.242721875" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-20.687246875" y1="22.772115625" x2="-20.687246875" y2="-23.227884375" width="0.127" layer="21" style="shortdash"/>
+<wire x1="20.268778125" y1="22.7777" x2="20.268778125" y2="-23.2223" width="0.127" layer="21" style="shortdash"/>
 </package>
 </packages>
 <symbols>
-<symbol name="TRANSFORMER">
+<symbol name="TRANSFORMER-14P">
 <description>Coupled inductors</description>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="7.62" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="12.7" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94" curve="180"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.1524" layer="94" curve="180"/>
-<wire x1="-7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
-<circle x="-6.35" y="8.89" radius="0.359209375" width="0.1524" layer="94"/>
-<circle x="6.35" y="8.89" radius="0.359209375" width="0.1524" layer="94"/>
-<text x="-3.81" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="4.572" size="1.778" layer="94">N1</text>
-<text x="3.302" y="4.572" size="1.778" layer="94">N2</text>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="-7.62" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="94"/>
+<circle x="-6.35" y="13.97" radius="0.359209375" width="0.1524" layer="94"/>
+<circle x="6.35" y="13.97" radius="0.359209375" width="0.1524" layer="94"/>
+<text x="-3.81" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="9.652" size="1.778" layer="94">N1</text>
+<text x="3.302" y="9.652" size="1.778" layer="94">N2</text>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94" curve="180"/>
 <wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-7.62" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
-<wire x1="5.08" y1="-17.78" x2="5.08" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="5.08" y1="-17.78" x2="5.08" y2="-20.32" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-20.32" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-20.32" x2="-5.08" y2="-20.32" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="94"/>
-<pin name="P$1" x="-12.7" y="10.16" visible="pad" length="middle"/>
-<pin name="P$2" x="-12.7" y="2.54" visible="pad" length="middle"/>
-<pin name="P$3" x="-12.7" y="-2.54" visible="pad" length="middle"/>
-<pin name="P$4" x="-12.7" y="-7.62" visible="pad" length="middle"/>
-<pin name="P$5" x="-12.7" y="-12.7" visible="pad" length="middle"/>
-<pin name="P$6" x="-12.7" y="-20.32" visible="pad" length="middle"/>
-<pin name="P$7" x="12.7" y="10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="P$8" x="12.7" y="2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="P$9" x="12.7" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="P$10" x="12.7" y="-7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="P$11" x="12.7" y="-12.7" visible="pad" length="middle" rot="R180"/>
-<pin name="P$12" x="12.7" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="7.62" y2="-17.78" width="0.1524" layer="94"/>
+<pin name="P$1" x="-12.7" y="15.24" visible="pad" length="middle"/>
+<pin name="P$2" x="-12.7" y="7.62" visible="pad" length="middle"/>
+<pin name="P$3" x="-12.7" y="2.54" visible="pad" length="middle"/>
+<pin name="P$4" x="-12.7" y="-2.54" visible="pad" length="middle"/>
+<pin name="P$5" x="-12.7" y="-7.62" visible="pad" length="middle"/>
+<pin name="P$6" x="-12.7" y="-12.7" visible="pad" length="middle"/>
+<pin name="P$7" x="-12.7" y="-17.78" visible="pad" length="middle"/>
+<pin name="P$8" x="12.7" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="P$9" x="12.7" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$10" x="12.7" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$11" x="12.7" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$12" x="12.7" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-17.78" x2="-5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<pin name="P$13" x="12.7" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="P$14" x="12.7" y="-17.78" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRANSFORMER-EE40">
+<deviceset name="TRANSFORMER-EE40-DOWN">
 <gates>
-<gate name="G$1" symbol="TRANSFORMER" x="0" y="5.08"/>
+<gate name="G$1" symbol="TRANSFORMER-14P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="EE40/EI40">
+<device name="" package="EE40/EI40-DOWN">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$10" pad="P$10"/>
 <connect gate="G$1" pin="P$11" pad="P$11"/>
 <connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
@@ -182,15 +194,15 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="untitled" deviceset="TRANSFORMER-EE40" device=""/>
+<part name="U$2" library="untitled" deviceset="TRANSFORMER-EE40-DOWN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="35.56" y="33.02" smashed="yes">
-<attribute name="NAME" x="31.75" y="45.72" size="1.778" layer="95"/>
+<instance part="U$2" gate="G$1" x="68.58" y="30.48" smashed="yes">
+<attribute name="NAME" x="64.77" y="48.26" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
