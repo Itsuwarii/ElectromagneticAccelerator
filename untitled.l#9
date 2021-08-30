@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="46" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -74,7 +74,7 @@
 </layers>
 <library>
 <packages>
-<package name="EE40/EI40">
+<package name="EE40/EI40-UP">
 <wire x1="-15.73484375" y1="-13.92934375" x2="-15.73484375" y2="14.07065625" width="0.127" layer="21"/>
 <wire x1="15.868653125" y1="-13.928753125" x2="15.868653125" y2="14.071246875" width="0.127" layer="21"/>
 <wire x1="-15.73434375" y1="-13.9301375" x2="15.86565625" y2="-13.9301375" width="0.127" layer="21"/>
@@ -91,6 +91,30 @@
 <pad name="P$10" x="2.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
 <pad name="P$11" x="7.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
 <pad name="P$12" x="12.524378125" y="-11.181159375" drill="0.9" diameter="2.1844"/>
+</package>
+<package name="EE40/EI40-DOWN">
+<wire x1="-16.961846875" y1="19.223553125" x2="-16.961846875" y2="-19.276446875" width="0.127" layer="21"/>
+<wire x1="16.53730625" y1="19.22609375" x2="16.53730625" y2="-19.27390625" width="0.127" layer="21"/>
+<wire x1="-16.964459375" y1="-19.2737875" x2="16.535540625" y2="-19.2737875" width="0.127" layer="21"/>
+<wire x1="-16.962159375" y1="19.226671875" x2="16.537840625" y2="19.226671875" width="0.127" layer="21"/>
+<pad name="P$1" x="-13.147515625" y="14.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$2" x="-13.147515625" y="9.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$3" x="-13.147515625" y="4.998265625" drill="0.85" diameter="2.54"/>
+<pad name="P$4" x="-13.147515625" y="-0.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$5" x="-13.147515625" y="-5.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$6" x="-13.147515625" y="-10.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$7" x="-13.147515625" y="-15.001734375" drill="0.85" diameter="2.54"/>
+<pad name="P$8" x="12.62581875" y="15.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$9" x="12.62581875" y="10.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$10" x="12.62581875" y="5.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$11" x="12.62581875" y="0.046525" drill="0.85" diameter="2.54"/>
+<pad name="P$12" x="12.62581875" y="-4.953475" drill="0.85" diameter="2.54"/>
+<pad name="P$13" x="12.62581875" y="-9.953475" drill="0.85" diameter="2.54"/>
+<pad name="P$14" x="12.62581875" y="-14.953475" drill="0.85" diameter="2.54"/>
+<wire x1="-20.7425375" y1="22.776175" x2="20.2574625" y2="22.776175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-20.68888125" y1="-23.242721875" x2="20.31111875" y2="-23.242721875" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-20.687246875" y1="22.772115625" x2="-20.687246875" y2="-23.227884375" width="0.127" layer="21" style="shortdash"/>
+<wire x1="20.268778125" y1="22.7777" x2="20.268778125" y2="-23.2223" width="0.127" layer="21" style="shortdash"/>
 </package>
 </packages>
 <symbols>
@@ -147,7 +171,7 @@
 <gate name="G$1" symbol="TRANSFORMER" x="0" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="EE40/EI40">
+<device name="" package="EE40/EI40-UP">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$10" pad="P$10"/>
