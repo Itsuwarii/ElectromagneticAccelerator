@@ -5290,6 +5290,29 @@ controlled avalanche rectifier</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="2N3904" urn="urn:adsk.eagle:component:29952/5" prefix="T" library_version="7">
+<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G1" pin="B" pad="2"/>
+<connect gate="G1" pin="C" pad="1"/>
+<connect gate="G1" pin="E" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28523/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="27" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="optocoupler" urn="urn:adsk.eagle:library:320">
@@ -5871,6 +5894,76 @@ http://www.zetex.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="22-23-2021" urn="urn:adsk.eagle:footprint:8078259/1" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="22-23-2021" urn="urn:adsk.eagle:package:8078633/1" type="box" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2021"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="22-23-2021" urn="urn:adsk.eagle:component:8078938/3" prefix="X" library_version="5">
+<description>.100" (2.54mm) Center Header - 2 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2021">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2021" constant="no"/>
+<attribute name="OC_FARNELL" value="1462926" constant="no"/>
+<attribute name="OC_NEWARK" value="25C3832" constant="no"/>
+<attribute name="POPULARITY" value="40" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5905,6 +5998,9 @@ http://www.zetex.com&lt;p&gt;
 <part name="D5" library="zetex" deviceset="DS_E2L" device="" package3d_urn="urn:adsk.eagle:package:30989/1"/>
 <part name="D3" library="zetex" deviceset="DS_E2L" device="" package3d_urn="urn:adsk.eagle:package:30989/1" value="400v"/>
 <part name="U$13" library="untitled" deviceset="IGBT-N-TO247" device=""/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="D4" library="zetex" deviceset="DS_E2L" device="" package3d_urn="urn:adsk.eagle:package:30989/1"/>
+<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2" value="S8050"/>
 </parts>
 <sheets>
 <sheet>
@@ -5966,15 +6062,30 @@ http://www.zetex.com&lt;p&gt;
 <attribute name="NAME" x="33.02" y="12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="D5" gate="A" x="-12.7" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-13.335" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-10.795" y="27.94" size="1.778" layer="96" rot="R90"/>
+<instance part="D5" gate="A" x="2.54" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.905" y="27.94" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="4.445" y="27.94" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D3" gate="A" x="5.08" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.54" y="67.945" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="2.54" y="70.485" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$13" gate="G$1" x="86.36" y="12.7" smashed="yes"/>
+<instance part="X1" gate="-1" x="137.16" y="38.1" smashed="yes">
+<attribute name="NAME" x="139.7" y="37.338" size="1.524" layer="95"/>
+<attribute name="VALUE" x="136.398" y="39.497" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="137.16" y="35.56" smashed="yes">
+<attribute name="NAME" x="139.7" y="34.798" size="1.524" layer="95"/>
+</instance>
+<instance part="D4" gate="A" x="-7.62" y="30.48" smashed="yes">
+<attribute name="NAME" x="-5.08" y="31.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-5.08" y="28.575" size="1.778" layer="96"/>
+</instance>
+<instance part="T1" gate="G1" x="-7.62" y="17.78" smashed="yes">
+<attribute name="NAME" x="-10.16" y="20.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-7.62" y="17.78" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6004,8 +6115,14 @@ http://www.zetex.com&lt;p&gt;
 <net name="SWITCH" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="G"/>
-<wire x1="71.12" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <label x="66.04" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="G"/>
+<wire x1="68.58" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="10.16" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="12.7" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
+<junction x="68.58" y="10.16"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6024,6 +6141,9 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="5.08"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="T1" gate="G1" pin="E"/>
+<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BT-" gate="G$1" pin="MOUNT"/>
@@ -6092,10 +6212,15 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="76.2" y1="76.2" x2="76.2" y2="85.344" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="85.344" x2="71.12" y2="85.344" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="T1" gate="G1" pin="C"/>
+<wire x1="-5.08" y1="22.86" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="-10.16" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="-12.7" y1="18.796" x2="15.24" y2="18.796" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="18.796" x2="15.24" y2="18.796" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="-"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="19.558" x2="63.5" y2="18.796" width="0.1524" layer="91"/>
@@ -6116,7 +6241,7 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="27.94" y1="15.24" x2="27.94" y2="18.796" width="0.1524" layer="91"/>
 <junction x="15.24" y="18.796"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="-12.7" y1="22.86" x2="-12.7" y2="18.796" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="18.796" width="0.1524" layer="91"/>
 <pinref part="D5" gate="A" pin="A"/>
 <pinref part="U$13" gate="G$1" pin="E"/>
 <wire x1="88.9" y1="7.62" x2="88.9" y2="5.08" width="0.1524" layer="91"/>
@@ -6172,11 +6297,23 @@ http://www.zetex.com&lt;p&gt;
 <junction x="38.1" y="30.48"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="15.24" y="30.48"/>
-<wire x1="15.24" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="38.1" y="45.72" size="1.778" layer="95"/>
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="30.48" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="D5" gate="A" pin="K"/>
+<pinref part="D4" gate="A" pin="K"/>
+<wire x1="2.54" y1="30.48" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
+<junction x="2.54" y="30.48"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="D4" gate="A" pin="A"/>
+<wire x1="-10.16" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G1" pin="B"/>
+<wire x1="-15.24" y1="30.48" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
