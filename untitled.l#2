@@ -212,14 +212,6 @@ Source: http://www.vishay.com/docs/83673/sfh618.pdf</description>
 <wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-3.048" x2="0.889" y2="-1.651" width="0.1524" layer="94"/>
 <wire x1="0.635" y1="-3.175" x2="2.032" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="1.905" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
@@ -244,8 +236,9 @@ Source: http://www.vishay.com/docs/83673/sfh618.pdf</description>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="4.318" x2="2.54" y2="5.08" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="1.778" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="4.064" x2="-2.54" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="-1.67203125" y1="4.498921875" x2="-2.54" y2="5.08" width="0.1016" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -256,10 +249,10 @@ Source: http://www.vishay.com/docs/83673/sfh618.pdf</description>
 <devices>
 <device name="" package="OPTOCOUPLER">
 <connects>
-<connect gate="G$1" pin="A" pad="C"/>
-<connect gate="G$1" pin="C" pad="K"/>
-<connect gate="G$1" pin="E" pad="A"/>
-<connect gate="G$1" pin="K" pad="E"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>

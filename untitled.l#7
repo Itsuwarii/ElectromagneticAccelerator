@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -169,10 +169,10 @@
 <wire x1="-8.546303125" y1="-0.55789375" x2="-4.746303125" y2="-0.55789375" width="0.127" layer="21"/>
 <wire x1="5.258365625" y1="-0.59573125" x2="9.058365625" y2="-0.59573125" width="0.127" layer="21"/>
 <wire x1="5.243571875" y1="0.423284375" x2="9.043571875" y2="0.423284375" width="0.127" layer="21"/>
-<pad name="P$1" x="-6.985" y="1.651" drill="0.75" shape="square"/>
-<pad name="P$2" x="-6.985" y="-1.778" drill="0.75" shape="square"/>
-<pad name="P$3" x="7.112" y="1.651" drill="0.75" shape="square"/>
-<pad name="P$4" x="7.112" y="-1.778" drill="0.75" shape="square"/>
+<pad name="P$1" x="-6.731" y="1.524" drill="0.75" shape="square"/>
+<pad name="P$2" x="-6.731" y="-1.524" drill="0.75" shape="square"/>
+<pad name="P$3" x="7.493" y="1.397" drill="0.75" shape="square"/>
+<pad name="P$4" x="7.493" y="-1.651" drill="0.75" shape="square"/>
 </package>
 <package name="DIP4" urn="urn:adsk.eagle:footprint:21917/1">
 <description>&lt;b&gt;DIP 4&lt;/b&gt; 300 mil&lt;p&gt;
@@ -244,14 +244,23 @@ Source: http://www.vishay.com/docs/83673/sfh618.pdf</description>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="4.318" x2="2.54" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="1.778" y2="5.08" width="0.2032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPTOCOUPLER">
 <gates>
+<gate name="G$1" symbol="SWITCH-MOMENTARY-LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="OPTOCOUPLER">
+<connects>
+<connect gate="G$1" pin="1" pad="P$2"/>
+<connect gate="G$1" pin="2" pad="P$1"/>
+<connect gate="G$1" pin="A" pad="P$3"/>
+<connect gate="G$1" pin="C" pad="P$4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
