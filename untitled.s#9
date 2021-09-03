@@ -6190,11 +6190,11 @@ NS Package M08A</description>
 <instance part="LED1" gate="G$1" x="81.28" y="73.66" smashed="yes"/>
 <instance part="R1" gate="G$1" x="81.28" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.7786" y="87.63" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="83.058" y="82.55" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="77.978" y="85.09" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="Q1" gate="G$1" x="33.02" y="5.08" smashed="yes">
 <attribute name="NAME" x="33.02" y="7.62" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="0" size="1.778" layer="96"/>
+<attribute name="VALUE" x="32.258" y="0.762" size="1.778" layer="96"/>
 </instance>
 <instance part="D5" gate="A" x="10.16" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.525" y="22.86" size="1.778" layer="95" rot="R90"/>
@@ -6213,15 +6213,15 @@ NS Package M08A</description>
 </instance>
 <instance part="R6" gate="G$1" x="139.7" y="78.74" smashed="yes">
 <attribute name="NAME" x="135.89" y="80.2386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="80.518" size="1.778" layer="96"/>
+<attribute name="VALUE" x="135.89" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="144.78" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="146.2786" y="44.45" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="146.558" y="39.37" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="141.478" y="41.91" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R9" gate="G$1" x="154.94" y="63.5" smashed="yes">
 <attribute name="NAME" x="151.13" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="156.21" y="65.278" size="1.778" layer="96"/>
+<attribute name="VALUE" x="151.13" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="55.88" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.4614" y="3.81" size="1.778" layer="95" rot="R90"/>
@@ -6244,7 +6244,7 @@ NS Package M08A</description>
 </instance>
 <instance part="R4" gate="G$1" x="68.58" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.0786" y="54.61" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="70.358" y="49.53" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="65.278" y="54.61" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R12" gate="G$1" x="69.088" y="25.654" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.898" y="24.1554" size="1.778" layer="95" rot="R180"/>
@@ -6256,7 +6256,7 @@ NS Package M08A</description>
 </instance>
 <instance part="R2" gate="G$1" x="58.42" y="81.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.9186" y="85.09" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="60.198" y="80.01" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="55.118" y="82.55" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC1" gate="P" x="48.26" y="68.58" smashed="yes"/>
 <instance part="VR1" gate="G$1" x="17.78" y="63.5" smashed="yes" rot="R90">
@@ -6265,15 +6265,15 @@ NS Package M08A</description>
 </instance>
 <instance part="R11" gate="G$1" x="17.78" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.2786" y="87.63" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="19.558" y="82.55" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="14.478" y="87.63" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R13" gate="G$1" x="5.08" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.5786" y="72.39" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="6.858" y="67.31" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="1.778" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R14" gate="G$1" x="5.08" y="53.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.5786" y="57.15" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="6.858" y="52.07" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="1.778" y="54.61" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R15" gate="G$1" x="2.286" y="19.558" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.7846" y="23.368" size="1.778" layer="95" rot="R270"/>
@@ -6281,15 +6281,15 @@ NS Package M08A</description>
 </instance>
 <instance part="R16" gate="G$1" x="68.58" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.0814" y="77.47" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.802" y="82.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R8" gate="G$1" x="137.16" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="138.6586" y="44.45" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="138.938" y="39.37" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="133.858" y="44.45" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="Q4" gate="G$1" x="22.86" y="0" smashed="yes">
 <attribute name="NAME" x="25.4" y="-2.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.86" y="2.54" size="1.778" layer="96"/>
+<attribute name="VALUE" x="23.622" y="-0.254" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
