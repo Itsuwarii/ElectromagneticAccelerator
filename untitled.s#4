@@ -6595,12 +6595,12 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <attribute name="VALUE" x="23.622" y="-0.254" size="1.778" layer="96"/>
 </instance>
 <instance part="OK1" gate="G$1" x="124.46" y="25.4" smashed="yes">
-<attribute name="NAME" x="117.475" y="31.115" size="1.778" layer="95"/>
+<attribute name="NAME" x="123.317" y="30.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.475" y="17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="R17" gate="G$1" x="114.3" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.8014" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="117.602" y="29.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="112.8014" y="32.512" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="117.602" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -6770,8 +6770,8 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<label x="111.76" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="108.458" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<label x="108.458" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT-" class="0">

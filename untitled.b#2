@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2696,8 +2696,9 @@ design rules under a new name.</description>
 <contactref element="R8" pad="1"/>
 <contactref element="T3" pad="1"/>
 <contactref element="OK1" pad="3"/>
-<wire x1="35.433" y1="26.162" x2="35.433" y2="21.727" width="0.6096" layer="16"/>
-<wire x1="35.433" y1="21.727" x2="35.296025" y2="21.590025" width="0.6096" layer="16" curve="-90"/>
+<wire x1="35.433" y1="26.162" x2="35.306" y2="26.035" width="0.6096" layer="16"/>
+<wire x1="35.306" y1="26.035" x2="35.306" y2="21.6" width="0.6096" layer="16"/>
+<wire x1="35.306" y1="21.6" x2="35.296025" y2="21.590025" width="0.6096" layer="16" curve="-90"/>
 <wire x1="35.296025" y1="21.590025" x2="35.296025" y2="19.40989375" width="0.6096" layer="16"/>
 <wire x1="35.296025" y1="19.40989375" x2="34.93608125" y2="19.04995" width="0.6096" layer="16" curve="-90"/>
 <wire x1="40.386" y1="22.098" x2="39.878025" y2="21.590025" width="0.6096" layer="16" curve="-90"/>

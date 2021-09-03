@@ -6970,7 +6970,6 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <segment>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
-<label x="134.62" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="22.86" x2="139.7" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="B"/>

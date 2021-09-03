@@ -6435,9 +6435,9 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="J1" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="61300311121" device="" package3d_urn="urn:adsk.eagle:package:11390689/2"/>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3704" device="" package3d_urn="urn:adsk.eagle:package:28523/2" value="s8050"/>
 <part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="2N3906" device="" package3d_urn="urn:adsk.eagle:package:29211/2" value="s8550"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="100k"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="10k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="10k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="200k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="20k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="10k"/>
 <part name="D6" library="zetex" deviceset="DS_E2L" device="" package3d_urn="urn:adsk.eagle:package:30989/1"/>
 <part name="D7" library="zetex" deviceset="D_E2L" device="" package3d_urn="urn:adsk.eagle:package:30989/1"/>
@@ -6453,10 +6453,11 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="2k"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="100k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="1k"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="10k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="20k"/>
 <part name="Q4" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="2N3906" device="" package3d_urn="urn:adsk.eagle:package:29211/2" value="s8550"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH618?*" device="A" package3d_urn="urn:adsk.eagle:package:21960/1" technology="-4"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="10k"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -6601,6 +6602,10 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <instance part="R17" gate="G$1" x="111.76" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="32.512" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R18" gate="G$1" x="134.62" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="136.1186" y="11.43" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="131.318" y="8.89" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -6926,9 +6931,13 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <wire x1="139.7" y1="-15.24" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="147.32" y="-17.78" size="1.778" layer="95"/>
 <wire x1="101.6" y1="0" x2="101.6" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="-15.24" x2="139.7" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-15.24" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="101.6" y="0"/>
 <junction x="139.7" y="-15.24"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="-15.24" x2="139.7" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="2.54" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="134.62" y="-15.24"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6944,8 +6953,12 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="27.94" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="G$1" pin="COL"/>
-<wire x1="132.08" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
 <junction x="147.32" y="27.94"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="12.7" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
+<junction x="134.62" y="27.94"/>
 </segment>
 </net>
 <net name="N$13" class="0">
